@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Pemon - FPT">
+  <defs>
+    <linearGradient id="bg" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="512" y2="512">
+      <stop offset="0" stop-color="#252E52"/>
+      <stop offset="0.6" stop-color="#161D33"/>
+      <stop offset="1" stop-color="#0B1020"/>
+    </linearGradient>
+    <radialGradient id="glow" gradientUnits="userSpaceOnUse" cx="256" cy="212" r="300">
+      <stop offset="0" stop-color="#6D5DF6" stop-opacity="0.55"/>
+      <stop offset="0.6" stop-color="#5B4BE8" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#5B4BE8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="fold-blue" gradientUnits="userSpaceOnUse" x1="6" y1="4" x2="11" y2="28">
+      <stop offset="0" stop-color="#7DD8FB"/>
+      <stop offset="1" stop-color="#2563EB"/>
+    </linearGradient>
+    <linearGradient id="fold-mint" gradientUnits="userSpaceOnUse" x1="9" y1="6.5" x2="17" y2="6.5">
+      <stop offset="0" stop-color="#5FE9B4"/>
+      <stop offset="1" stop-color="#059669"/>
+    </linearGradient>
+    <linearGradient id="fold-amber" gradientUnits="userSpaceOnUse" x1="16" y1="6" x2="23" y2="16">
+      <stop offset="0" stop-color="#FDE28A"/>
+      <stop offset="1" stop-color="#D97706"/>
+    </linearGradient>
+    <linearGradient id="fold-rose" gradientUnits="userSpaceOnUse" x1="17" y1="16.2" x2="9" y2="16.2">
+      <stop offset="0" stop-color="#F2547A"/>
+      <stop offset="1" stop-color="#FB8194"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <rect width="512" height="512" fill="url(#glow)"/>
+
+  <g transform="translate(78 64) scale(12)" fill="none" stroke-width="4.6" stroke-linecap="butt">
+    <path d="M8.2 4.2V27.8" stroke="url(#fold-blue)"/>
+    <path d="M9.3 6.5H16.6" stroke="url(#fold-mint)"/>
+    <path d="M16.6 6.5A4.85 4.85 0 0 1 16.6 16.2" stroke="url(#fold-amber)"/>
+    <path d="M16.6 16.2H9.3" stroke="url(#fold-rose)"/>
+  </g>
+</svg>
